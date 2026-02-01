@@ -1,0 +1,66 @@
+body{
+background-color: pink;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.paper{
+width: 250px;
+margin-top: 70px;
+}
+
+.valen{
+font-size: 60px;
+color: rgb(245, 106, 129);
+}
+
+.div1{
+text-align: center;
+background-color: white;
+width: 500px;
+padding-bottom: 70px;
+padding-left: 100px;
+padding-right: 100px;
+
+margin-top: 150px;
+}
+
+.div3{
+margin-top: 70px;
+}
+
+#button1{
+background-color: rgb(255, 142, 142);
+padding: 17px 30px;
+border-radius: 75px;
+margin-right: 70px;
+transition: padding 0.3s ease;
+}
+
+#button2{
+    background-color: rgb(255, 142, 142);
+    padding: 17px 30px;
+    border-radius: 25px;
+    transition: padding 0.3s ease;
+    }
+
+    @media (max-width: 460px){
+    
+        .paper{
+        width: 170px;
+        }
+
+        .div1{
+    margin-left: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 300px;
+        }
+        
+        .valen{
+        font-size: 30px;
+        }
+
+        .div3{
+        margin-top: 50px;
+        }
+    }
